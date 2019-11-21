@@ -8,10 +8,8 @@ GEM
     adsf (1.1.1)
       rack (>= 1.0.0)
     coderay (1.0.7)
-    colored (1.2)
     commonjs (0.2.6)
-    cri (2.3.0)
-      colored (>= 1.2)
+    cri (2.15.9)
     daemons (1.1.8)
     eventmachine (0.12.10)
     ffi (1.0.11)
@@ -30,12 +28,14 @@ GEM
       rb-fsevent (~> 0.9.1)
       rb-inotify (~> 0.8.8)
     mime-types (1.19)
-    nanoc (3.3.1)
-      cri (~> 2.1)
-    nanoc-code-classifier (0.0.4)
+    mini_portile2 (2.4.0)
+    nanoc (3.8.0)
+      cri (~> 2.3)
+    nanoc-code-classifier (0.1.0)
       nanoc (~> 3.0)
       nokogiri (~> 1.0)
-    nokogiri (1.5.5)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     open4 (1.3.0)
     rack (1.4.1)
     rack-contrib (1.1.0)
@@ -68,10 +68,13 @@ DEPENDENCIES
   less
   mime-types
   nanoc
-  nanoc-code-classifier
+  nanoc-code-classifier (>= 0.0.4)
   rack-contrib
   rack-rewrite
   rainpress
   rb-fsevent
   thin
   yui-compressor
+
+BUNDLED WITH
+   1.17.3
