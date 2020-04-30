@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem 'sinatra'
 gem 'rack-accept'
 gem 'haml'
-gem 'json'
+gem 'json', '>= 2.3.0'
 #gem 'xmlsimple'
 gem 'rest-client'
 gem 'nokogiri'
