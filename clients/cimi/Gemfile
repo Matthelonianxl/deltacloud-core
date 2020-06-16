@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
-gem 'sinatra'
-gem 'rack-accept'
+gem 'sinatra', '>= 2.0.0'
+gem 'rack-accept', '>= 0.4.5'
 gem 'haml'
 gem 'json'
 #gem 'xmlsimple'
