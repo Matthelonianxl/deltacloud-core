@@ -22,7 +22,8 @@ GEM
     guard-nanoc (0.1.0)
       guard (>= 0.2.1)
       nanoc (>= 3.1.5)
-    kramdown (0.13.7)
+    kramdown (2.3.0)
+      rexml
     less (2.2.1)
       commonjs (~> 0.2.6)
     listen (0.4.6)
@@ -47,6 +48,7 @@ GEM
     rb-fsevent (0.9.1)
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
+    rexml (3.2.4)
     thin (1.3.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -64,7 +66,7 @@ DEPENDENCIES
   fssm
   guard
   guard-nanoc
-  kramdown
+  kramdown (>= 2.3.0)
   less
   mime-types
   nanoc
@@ -75,3 +77,6 @@ DEPENDENCIES
   rb-fsevent
   thin
   yui-compressor
+
+BUNDLED WITH
+   1.17.3
