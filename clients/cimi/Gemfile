@@ -1,11 +1,11 @@
 source "http://rubygems.org"
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
 gem 'rack-accept'
-gem 'haml'
-gem 'json'
+gem 'haml', '>= 5.0.0'
+gem 'json', '>= 2.3.0'
 #gem 'xmlsimple'
-gem 'rest-client'
-gem 'nokogiri'
+gem 'rest-client', '>= 1.8.0'
+gem 'nokogiri', '>= 1.13.9'
 
 gemspec :path => File.join(File.dirname(__FILE__), '..', '..', 'server')
