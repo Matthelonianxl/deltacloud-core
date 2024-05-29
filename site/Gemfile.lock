@@ -37,9 +37,9 @@ GEM
       nokogiri (~> 1.0)
     nokogiri (1.5.5)
     open4 (1.3.0)
-    rack (1.4.1)
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
+    rack (3.0.11)
+    rack-contrib (2.5.0)
+      rack (< 4)
     rack-rewrite (1.2.1)
     rainpress (1.0)
     rb-fchange (0.0.5)
@@ -69,9 +69,12 @@ DEPENDENCIES
   mime-types
   nanoc
   nanoc-code-classifier
-  rack-contrib
+  rack-contrib (>= 2.5.0)
   rack-rewrite
   rainpress
   rb-fsevent
   thin
   yui-compressor
+
+BUNDLED WITH
+   2.1.4
